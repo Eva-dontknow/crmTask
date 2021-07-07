@@ -33,9 +33,6 @@ public interface BaseMapper<T,ID> {
 
     /**
      * 根据id 查询详情
-     *
-     * 乐字节：专注线上IT培训
-     * 答疑老师微信：lezijie
      * @param id
      * @return
      */
@@ -44,9 +41,6 @@ public interface BaseMapper<T,ID> {
 
     /**
      * 多条件查询
-     *
-     * 乐字节：专注线上IT培训
-     * 答疑老师微信：lezijie
      * @param baseQuery
      * @return
      */
@@ -55,9 +49,6 @@ public interface BaseMapper<T,ID> {
 
     /**
      * 更新单条记录
-     *
-     * 乐字节：专注线上IT培训
-     * 答疑老师微信：lezijie
      * @param entity
      * @return
      */
@@ -66,9 +57,6 @@ public interface BaseMapper<T,ID> {
 
     /**
      * 批量更新
-     *
-     * 乐字节：专注线上IT培训
-     * 答疑老师微信：lezijie
      * @param entities
      * @return
      */
@@ -76,9 +64,6 @@ public interface BaseMapper<T,ID> {
 
     /**
      * 删除单条记录
-     *
-     * 乐字节：专注线上IT培训
-     * 答疑老师微信：lezijie
      * @param id
      * @return
      */
@@ -86,9 +71,6 @@ public interface BaseMapper<T,ID> {
 
     /**
      * 批量删除
-     *
-     * 乐字节：专注线上IT培训
-     * 答疑老师微信：lezijie
      * @param ids
      * @return
      */

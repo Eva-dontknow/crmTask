@@ -5,7 +5,9 @@ import com.nast.crm.exceptions.ParamsException;
 import com.nast.crm.model.UserModel;
 import com.nast.crm.service.UserService;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.Mapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
@@ -23,11 +25,10 @@ public class UserController extends BaseController {
      * @param userPwd
      * @return
      */
-    @PostMapping("user/login")
+    @PostMapping("/user/login")
     @ResponseBody
     public ResultInfo login(String userName, String userPwd) {
         ResultInfo resultInfo = new ResultInfo();
-        System.out.println("nengxingma");
         try {
             //拿到登录信息
             UserModel userModel = userService.login(userName, userPwd);

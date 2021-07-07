@@ -5,6 +5,7 @@ import com.nast.base.BaseService;
 import com.nast.crm.dao.UserMapper;
 import com.nast.crm.utils.AssertUtil;
 import com.nast.crm.utils.Md5Util;
+import com.nast.crm.utils.UserIDBase64;
 import com.nast.crm.vo.User;
 import com.nast.crm.model.UserModel;
 import org.apache.commons.lang3.StringUtils;
@@ -43,6 +44,7 @@ public class UserService extends BaseService<User,Integer>{
      */
     private UserModel buildUserInfo(User user) {
         UserModel userModel = new UserModel();
+        userModel.setUserIdStr(UserIDBase64.encoderUserID(user.getId()));
         userModel.setTrueName(user.getTrueName());
         userModel.setUserName(user.getUserName());
         return userModel;

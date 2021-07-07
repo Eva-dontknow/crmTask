@@ -9,10 +9,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * 乐字节：专注线上IT培训
- * 答疑老师微信：lezijie
- */
+
 @SuppressWarnings("all")
 public abstract class BaseService<T,ID> {
 
@@ -21,10 +18,6 @@ public abstract class BaseService<T,ID> {
 
     /**
      * 添加记录返回行数
-     *
-     *
-     * 乐字节：专注线上IT培训
-     * 答疑老师微信：lezijie
      * @param entity
      * @return java.lang.Integer
      */
@@ -34,10 +27,6 @@ public abstract class BaseService<T,ID> {
 
     /**
      * 添加记录返回主键
-     *
-     *
-     * 乐字节：专注线上IT培训
-     * 答疑老师微信：lezijie
      * @param entity
      * @return ID
      */
@@ -54,10 +43,6 @@ public abstract class BaseService<T,ID> {
     
     /**
      * 批量添加
-     *
-     *
-     * 乐字节：专注线上IT培训
-     * 答疑老师微信：lezijie 
      * @param entities 
      * @return java.lang.Integer
      */
@@ -68,10 +53,6 @@ public abstract class BaseService<T,ID> {
 
     /**
      * 根据id 查询详情
-     *
-     *
-     * 乐字节：专注线上IT培训
-     * 答疑老师微信：lezijie
      * @param id
      * @return T
      */
@@ -82,10 +63,6 @@ public abstract class BaseService<T,ID> {
 
     /**
      * 多条件查询
-     *
-     *
-     * 乐字节：专注线上IT培训
-     * 答疑老师微信：lezijie
      * @param baseQuery
      * @return java.util.List<T>
      */
@@ -96,10 +73,6 @@ public abstract class BaseService<T,ID> {
 
     /**
      * 更新单条记录
-     *
-     *
-     * 乐字节：专注线上IT培训
-     * 答疑老师微信：lezijie
      * @param entity
      * @return java.lang.Integer
      */
@@ -110,10 +83,6 @@ public abstract class BaseService<T,ID> {
 
     /**
      * 批量更新
-     *
-     *
-     * 乐字节：专注线上IT培训
-     * 答疑老师微信：lezijie
      * @param entities
      * @return java.lang.Integer
      */
@@ -123,10 +92,6 @@ public abstract class BaseService<T,ID> {
 
     /**
      * 删除单条记录
-     *
-     *
-     * 乐字节：专注线上IT培训
-     * 答疑老师微信：lezijie
      * @param id
      * @return java.lang.Integer
      */
@@ -136,10 +101,6 @@ public abstract class BaseService<T,ID> {
 
     /**
      * 批量删除
-     *
-     *
-     * 乐字节：专注线上IT培训
-     * 答疑老师微信：lezijie
      * @param ids
      * @return java.lang.Integer
      */
@@ -150,10 +111,6 @@ public abstract class BaseService<T,ID> {
 
     /**
      * 查询数据表格对应的数据
-     *
-     *
-     * 乐字节：专注线上IT培训
-     * 答疑老师微信：lezijie
      * @param baseQuery
      * @return java.util.Map<java.lang.String,java.lang.Object>
      */
