@@ -2,7 +2,7 @@
 /target/
 
 /out/
-
+.idea
 /*.gitignore
 /*.xml
 /*.yml
