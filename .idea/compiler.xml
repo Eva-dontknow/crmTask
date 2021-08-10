@@ -6,13 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="crmTask" />
+        <module name="TestModel" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="crmTask" options="-parameters" />
+      <module name="TestModel" options="-parameters" />
+      <module name="crmTask" options="" />
     </option>
   </component>
 </project>
